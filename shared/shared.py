@@ -21,8 +21,10 @@ def space_compress(stocomp):
     comp = re.sub(r'\s+', ' ', stocomp)
     return comp.strip()
 
-def new_func():
-    pass
+#def new_func():
+#    pass
 
 def added_function():
     print("This is a function that I added.")
+    
+    
