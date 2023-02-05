@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 setup(name='shared',
-      version='1.1.3',
+      version='1.1.4',
       description='This package has shared components.',
       author='Efrain Olivares',
       author_email='efrain.olivares@gmail.com',
