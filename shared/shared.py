@@ -23,3 +23,6 @@ def space_compress(stocomp):
 
 def new_func():
     pass
+
+def added_function():
+    print("This is a function that I added.")
