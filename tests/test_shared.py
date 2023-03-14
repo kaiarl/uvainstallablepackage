@@ -47,9 +47,11 @@ def test_skip():
     assert not skip
 
 
-@pytest.mark.skipif(sys.platform == 'charles', reason = "requires platform other than 'charles' ")
-def test_platform():
-    print("My platform is", sys.platform)
-    assert False
-    
+# # Remove this test for CircleCI Lab
+#@pytest.mark.skipif(sys.platform == 'charles', reason = "requires platform other than 'charles' ")
+#def test_platform():
+#    print("My platform is", sys.platform)
+#    assert False
+
+
     
